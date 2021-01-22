@@ -1,0 +1,48 @@
+name: SkyWars
+main: vixikhd\skywars\SkyWars
+version: 1.2.0-Beta
+api: [3.0.0]
+author: GamakCZ
+softdepend: [EconomyAPI]
+extensions: [mysqli, yaml, json, zip]
+permissions:
+  sw.cmd:
+    description: Permission to all SkyWars commands
+    default: op
+    children:
+      sw.cmd.help:
+        description: Permission for /sw help
+        default: op
+      sw.cmd.create:
+        description: Permission for /sw create
+        default: op
+      sw.cmd.remove:
+        description: Permission for /sw remove
+        default: op
+      sw.cmd.set:
+        description: Permission for /sw set
+        default: op
+      sw.cmd.arenas:
+        description: Permission for /sw arenas
+        default: op
+      sw.cmd.start:
+        description: Permission for /sw start
+        default: op
+      sw.cmd.shop:
+        description: Permission for /sw shop
+        default: true
+      sw.cmd.kick:
+        description: Permission for /sw kick
+        default: op
+      sw.cmd.leave:
+        description: Permission for /sw leave
+        default: true
+      sw.cmd.join:
+        description: Permission for /sw join
+        default: true
+      sw.cmd.random:
+        description: Permission for /sw random
+        default: true
+      sw.kit:
+        description: Permission for all the kits
+        default: op

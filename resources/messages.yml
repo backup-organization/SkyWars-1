@@ -1,0 +1,45 @@
+---
+# Language file for SkyWars v1.1.0
+
+# Messages
+arena.join: '§7§lSkyWars>§r§a {%0} joined the game §7[{%1}/{%2}]'
+arena.quit: '§7§lSkyWars>§r§a {%0} left the game §7[{%1}/{%2}]' # todo: check spectator
+arena.quit.player: '§a> You have successfully left the game.'
+arena.start: '§aGame Started!'
+arena.win.title: '§aYOU WON!'
+arena.win.message: '§7§lSkyWars>§r§a Player §7{%0} §awon the game at §7{%1}§a!'
+arena.lbtitle.lucky: '§aLUCKY'
+arena.lbtitle.unlucky: '§cUNLUCKY'
+arena.join.ingame: '§7§lSkyWars>§r§c Arena is running!'
+arena.join.restart: '§7§lSkyWars>§r§c Arena is restarting!'
+arena.join.full: '§7§lSkyWars>§r§c Arena is starting!'
+arena.join.player.ingame: '§7§lSkyWars>§r§c You are already in game!'
+
+# Death messages
+arena.death.killed: '§7{%0} was killed by {%1} §a[{%2}/{%3}]'
+arena.death.exploded: '§7{%0} exploded §a[{%1}/{%2}]'
+arena.death.fell: '§7{%0} fell from a high place §a[{%1}/{%2}]'
+arena.death.void.player: '§7{%0} was knocked into the void by {%1} §a[{%2}/{%3}]'
+arena.death.void: '§7{%0} fell into the void §a[{%1}/{%2}]'
+arena.death: '§7{%0} death. '
+
+# Tips (leave empty to hide)
+arena.waiting: '§cWaiting for more players ({%0}/{%1}).'
+arena.starting: '§aStarting game in {%2} sec.'
+arena.game: '§aThere are {%0} players. Time to end: {%1}'
+
+# Kit messages
+kit.shop.empty: '§c> Kit shop is empty.'
+kit.shop.missingeconomy: '§c> Could not open kit shop: Economy provider not found.'
+
+kit.form.select: '§7{%0}\n§a§l>§r§a Click to equip'
+kit.form.needbuy: '§7{%0}\n§6§l>§r§6 Go to shop to buy this kit'
+kit.form.needmoney: '§7{%0}\n§c§l>§r§c You have not too enough money to buy this kit.'
+kit.form.shop.own: '§7{%0}'
+kit.form.shop.buy: '§7{%0} - §7Price: ${%1}\n§a§l>§r§a Click to BUY'
+kit.form.shop.needmoney: '§7$kit §7Price: $".$price . "\n§c§l>§r§c You have not too enough money to buy this kit.'
+
+kit.needbuy: '§7§lKits>§r§c Buy this kit first!'
+kit.choosen: '§7§lKits>§r§a Chosen kit {%0}!'
+
+...
